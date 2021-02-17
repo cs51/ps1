@@ -211,14 +211,16 @@ Here are their signatures:
   from_run_length : (int * char) list -> char list
 
 Replace the lines below with your own definitions of `to_run_length`
-and `from_run_length`.
-......................................................................*)
+and `from_run_length`. We recommend that you write `from_run_length`
+first, and then `to_run_length`.
 
-let to_run_length =
-  (fun _ -> failwith "to_run_length not implemented") ;;
+......................................................................*)
 
 let from_run_length =
   (fun _ -> failwith "from_run_length not implemented") ;;
+
+let to_run_length =
+  (fun _ -> failwith "to_run_length not implemented") ;;
 
 (*======================================================================
 Part 2 - Prisoner's Dilemma
