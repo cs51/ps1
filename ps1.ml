@@ -213,7 +213,6 @@ Here are their signatures:
 Replace the lines below with your own definitions of `to_run_length`
 and `from_run_length`. We recommend that you write `from_run_length`
 first, and then `to_run_length`.
-
 ......................................................................*)
 
 let from_run_length =
